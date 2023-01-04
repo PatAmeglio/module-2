@@ -7,8 +7,8 @@ header {
     top: 0;
     left: 0;
     right: 0;
-    background-color: royalblue;
-    color: #fff;
+    background-color: lightblue;
+    color: black;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -30,6 +30,7 @@ nav ul {
 
 nav li {
     margin: 0 0.5em;
+    color: black;
   }
 
 main { 
@@ -41,6 +42,12 @@ main {
     display: flex;
     flex: 1 1 0;
     max-width: 96%;
+}
+
+.about img {
+    width: 20%;
+    height: 5%;
+    margin-left: 5%;
 }
 
 .about h2 {
@@ -58,9 +65,7 @@ main {
     display: flex;
 }
 
-.contact {
 
-}
 
 @media screen and (max-width: 768px) {
 
