@@ -1,5 +1,5 @@
 body {
-    background-color: peachpuff;
+    background-color: skyblue;
 }
 
 header {
@@ -7,19 +7,23 @@ header {
     top: 0;
     left: 0;
     right: 0;
-    background-color: aquamarine;
+    background-color: whitesmoke;
     color: black;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 1em blue;
-    z-index: 1;
+    background-image: url(/assets/images/Nav2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
   
 header h1 {
     font-size: 60px;
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
+
 
 nav ul {
     display: flex;
@@ -34,7 +38,7 @@ nav li {
     color: black;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   }
-
+  
 main { 
     display: block;
 }
@@ -46,6 +50,10 @@ h2 {
     justify-content: space-evenly;
     margin-bottom: 100px;
     border-bottom-style: double;
+    background-color: whitesmoke;
+    border-width: 5px;
+    transition: .30s;
+    padding-top: 100px;
 }
 
 .about {
@@ -56,8 +64,10 @@ h2 {
     width: 400px;
     margin-left: 100px;
     border-style: ridge;
-    border-color: aqua;
+    border-color: white;
+    border-width: 10px;
 }
+
 
 .about p {
     margin-left: 100px;
@@ -66,7 +76,7 @@ h2 {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-.projects {
+.project {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -99,22 +109,40 @@ h2 {
     border-width: 10px;
 }
 
-
-.contact {
-    margin-top: 100px;
-    display: flex;
-    justify-content: space-evenly;
-    margin-bottom: 50px;
-    font-size: 35px;
+.project1:hover,.project2:hover, .project3:hover, .project4:hover {
+    border-color:deeppink;
+    border-style: groove;
+    cursor: grab;
 }
 
 
+#contact {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 150px;
+    font-size: 35px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    transition: .30s;
+}
+
+#contact a {
+    text-decoration: underline;
+    color: blue
+}
+
+#about, #projects {
+    padding-top: 150px;
+}
 
 
 @media screen and (max-width: 768px) {
-    main,
-    nav {
-      flex-direction: column;
+    body {
+      flex-direction: row;
     }
   }
 
