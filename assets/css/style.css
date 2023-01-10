@@ -13,7 +13,7 @@ header {
     align-items: center;
     justify-content: space-between;
     padding: 1em blue;
-    background-image: url(.assets/images/Nav2.jpg);
+    background-image:url(/assets/images/Nav2.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -88,7 +88,7 @@ h2 {
 .project1 {
     width: 500px;
     height: 400px;
-    background:url(.assets/images/comingsoon.jpg);
+    background:url(/assets/images/comingsoon.jpg);
     background-size:contain;
     color: white;
     text-align: center;
@@ -100,7 +100,7 @@ h2 {
 .project2, .project3, .project4 {
     width: 400px;
     height: 300px;
-    background:url(.assets/images/comingsoon.jpg);
+    background:url(/assets/images/comingsoon.jpg);
     background-size: contain;
     color: white;
     text-align: center;
