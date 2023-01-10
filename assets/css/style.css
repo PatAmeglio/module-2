@@ -88,7 +88,7 @@ h2 {
 .project1 {
     width: 500px;
     height: 400px;
-    background: url("../images/comingsoon.jpg");
+    background-image: url("../images/comingsoon.jpg");
     background-size:contain;
     color: white;
     text-align: center;
@@ -100,7 +100,7 @@ h2 {
 .project2, .project3, .project4 {
     width: 400px;
     height: 300px;
-    background: url("../images/comingsoon.jpg");
+    background-image: url("../images/comingsoon.jpg");
     background-size: contain;
     color: white;
     text-align: center;
